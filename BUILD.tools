@@ -1,3 +1,7 @@
+#BUILD.tools is where you can set specific overrides for the building blocks that PANTS uses
+#such as the jdk and scalc compiler.
+#@see https://pantsbuild.github.io/setup_repo.html#configure-pants-own-runtime-dependencies
+
 SCALA_REV = '2.11.8'
 
 jar_library(name = 'scala-compiler',
